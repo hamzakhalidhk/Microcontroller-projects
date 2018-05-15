@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NED Weather Station</title>
+</head>
+<body>
+<p style="text-align:center;font-size:40px;font-family:Calibri;color: #0066cc;">Personal Weather Monitoring</p>
+<p style="text-align:center;font-size:25px;font-family:Calibri;color: #d62020;">Hamza Khalid EL-115 <br> Ammar Ahmed EL-142</p>
+<div style="position:absolute; top:10px;left:10px;" >
+<iframe width="200" height="300" style="border: 0px" src="http://nedweather.000webhostapp.com/test.php"></iframe></div>
+
+<p style="text-align:center;">
+<! temp>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/xxx/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Temperature&type=line"></iframe>
+<! humidity>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/xxx/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Humidity&type=line"></iframe>
+<! light intensity>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/xxx/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Light+Intensity&type=line"></iframe>
+<! Pressure>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/xxx/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Pressure&type=line"></iframe>
+</p>
+
+</body>
+</html>
