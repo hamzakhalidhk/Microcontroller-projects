@@ -17,9 +17,9 @@ SoftwareSerial espSerial =  SoftwareSerial(10,11);      // arduino RX pin=10  ar
 DHT dht(DHTPIN, DHTTYPE);
 
 
-String apiKey = "XN4MD3DYJHUDG8DV";     //Channel's thingspeak WRITE API key
-String ssid="Hamza";    // Wifi network SSID
-String password ="123pak123";  // Wifi network password
+String apiKey = "xxx";     //Channel's thingspeak WRITE API key
+String ssid="xxx";    // Wifi network SSID
+String password ="xxx";  // Wifi network password
 boolean DEBUG=true;
 
 //======================================================================== showResponse
